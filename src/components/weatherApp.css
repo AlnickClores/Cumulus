@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.title {
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+.sub-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #87b2cc;
+  color: #e6ecee;
+  overflow: hidden;
+}
+.search-container input {
+  padding: 8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 10px;
+}
+.search-container button {
+  padding: 8px 15px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.search-container button:hover {
+  background-color: #6298bc;
+  color: #efefef;
+  transition: 0.3s;
+}
+.main-weather-container {
+  background-color: #6298bc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.weather-container {
+  background-color: #2b658b63;
+  border-radius: 10px;
+  padding: 10px;
+}
+.weather-temp {
+  font-size: 4rem;
+}
+.weather-main {
+  color: #ffffff;
+}
+.weather-location {
+  font-size: 1.5rem;
+}
+.whp-container {
+  background-color: #2b658b63;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.whp-child {
+  margin: 0 30px;
+}
+.whp-child h1 {
+  font-size: 1.5rem;
+}
+.whp-child p {
+  font-size: 20px;
+}
+.error {
+  color: rgba(212, 13, 13, 0.945);
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+  .main-container {
+    padding: 20px;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .sub-title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .search-container input {
+    padding: 4px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .search-container button {
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .main-weather-container {
+    padding: 10px;
+  }
+  .weather-container {
+    padding: 10px;
+  }
+  .weather-temp {
+    font-size: 45px;
+  }
+  .weather-location {
+    font-size: 20px;
+  }
+  .whp-child {
+    margin: 0 10px;
+  }
+  .whp-child h1 {
+    font-size: 15px;
+  }
+  .whp-child p {
+    font-size: 12px;
+  }
+  .error {
+    font-size: 12px;
+  }
+}
