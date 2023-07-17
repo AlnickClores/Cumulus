@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cumulus/static/css/main.78c07c1a.css",
+    "main.js": "/Cumulus/static/js/main.e7ec983e.js",
+    "index.html": "/Cumulus/index.html",
+    "main.78c07c1a.css.map": "/Cumulus/static/css/main.78c07c1a.css.map",
+    "main.e7ec983e.js.map": "/Cumulus/static/js/main.e7ec983e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78c07c1a.css",
+    "static/js/main.e7ec983e.js"
+  ]
+}
